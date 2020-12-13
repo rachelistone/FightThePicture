@@ -20,9 +20,15 @@ class Squares:
             self.writer = csv.DictWriter(table, col_keys)
             self.writer.writeheader()
             for i in range(0, NUMSQUARESHEIGHT):
-                writer.writerow(dict(zip(col_keys, [str(i)]+[0]*NUMSQUARESWIDTH)))
+                self.writer.writerow(dict(zip(col_keys, [str(i)]+[0]*NUMSQUARESWIDTH)))
 
-    def set_square(self, col, row):
+    def set_square(self, x, y):
+        # with open('squares.csv', 'r', newline='') as table:
+        #     self.reader = csv.DictReader(table)
+        #     for row in range(0, NUMSQUARESHEIGHT):
+        #         if row[' '] == str(y):
+        pass
+
         pass # self.writer.fieldnames[col+1][row] = True
 
 
