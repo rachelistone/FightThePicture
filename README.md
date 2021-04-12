@@ -1,2 +1,3 @@
-# FightThePicture
-pygmae to build a picture be competing the space of the screen
+# ThinkingGamePickling
+build a picture by completing the squares of the screen and circles the other user 
+used pygame and gragh algorithm to find circles
